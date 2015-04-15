@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3012BFD21ADE6DBD002B43B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012BFD11ADE6DBD002B43B3 /* AppDelegate.swift */; };
+		3012BFD41ADE6DBD002B43B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012BFD31ADE6DBD002B43B3 /* ViewController.swift */; };
+		3012BFD71ADE6DBD002B43B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3012BFD51ADE6DBD002B43B3 /* Main.storyboard */; };
+		3012BFD91ADE6DBD002B43B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3012BFD81ADE6DBD002B43B3 /* Images.xcassets */; };
+		3012BFF81ADE6FC3002B43B3 /* Agate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3012BFF61ADE6FC3002B43B3 /* Agate.bundle */; };
+		3012BFF91ADE6FC3002B43B3 /* Agate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012BFF71ADE6FC3002B43B3 /* Agate.framework */; };
+		3012BFFB1ADE6FE2002B43B3 /* moml in Resources */ = {isa = PBXBuildFile; fileRef = 3012BFFA1ADE6FE2002B43B3 /* moml */; };
+		3012C00C1ADE70BA002B43B3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012BFFC1ADE70B9002B43B3 /* AddressBook.framework */; };
+		3012C00D1ADE70BA002B43B3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012BFFD1ADE70B9002B43B3 /* AssetsLibrary.framework */; };
+		3012C00E1ADE70BA002B43B3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012BFFE1ADE70B9002B43B3 /* AudioToolbox.framework */; };
+		3012C00F1ADE70BA002B43B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012BFFF1ADE70BA002B43B3 /* AVFoundation.framework */; };
+		3012C0101ADE70BA002B43B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0001ADE70BA002B43B3 /* CoreLocation.framework */; };
+		3012C0111ADE70BA002B43B3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0011ADE70BA002B43B3 /* CoreMotion.framework */; };
+		3012C0121ADE70BA002B43B3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0021ADE70BA002B43B3 /* CoreText.framework */; };
+		3012C0131ADE70BA002B43B3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0031ADE70BA002B43B3 /* libsqlite3.dylib */; };
+		3012C0141ADE70BA002B43B3 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0041ADE70BA002B43B3 /* libstdc++.6.dylib */; };
+		3012C0151ADE70BA002B43B3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0051ADE70BA002B43B3 /* libxml2.dylib */; };
+		3012C0161ADE70BA002B43B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0061ADE70BA002B43B3 /* MapKit.framework */; };
+		3012C0171ADE70BA002B43B3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0071ADE70BA002B43B3 /* MediaPlayer.framework */; };
+		3012C0181ADE70BA002B43B3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0081ADE70BA002B43B3 /* MessageUI.framework */; };
+		3012C0191ADE70BA002B43B3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C0091ADE70BA002B43B3 /* MobileCoreServices.framework */; };
+		3012C01A1ADE70BA002B43B3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C00A1ADE70BA002B43B3 /* Security.framework */; };
+		3012C01B1ADE70BA002B43B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012C00B1ADE70BA002B43B3 /* SystemConfiguration.framework */; };
+		3012C01D1ADE71C3002B43B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3012C01C1ADE71C3002B43B3 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3012BFCC1ADE6DBD002B43B3 /* KorQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KorQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3012BFD01ADE6DBD002B43B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3012BFD11ADE6DBD002B43B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3012BFD31ADE6DBD002B43B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3012BFD61ADE6DBD002B43B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3012BFD81ADE6DBD002B43B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3012BFF61ADE6FC3002B43B3 /* Agate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Agate.bundle; path = AgateFramework/Agate.bundle; sourceTree = "<group>"; };
+		3012BFF71ADE6FC3002B43B3 /* Agate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agate.framework; path = AgateFramework/Agate.framework; sourceTree = "<group>"; };
+		3012BFFA1ADE6FE2002B43B3 /* moml */ = {isa = PBXFileReference; lastKnownFileType = folder; path = moml; sourceTree = "<group>"; };
+		3012BFFC1ADE70B9002B43B3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		3012BFFD1ADE70B9002B43B3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3012BFFE1ADE70B9002B43B3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3012BFFF1ADE70BA002B43B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3012C0001ADE70BA002B43B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3012C0011ADE70BA002B43B3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3012C0021ADE70BA002B43B3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3012C0031ADE70BA002B43B3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3012C0041ADE70BA002B43B3 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		3012C0051ADE70BA002B43B3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3012C0061ADE70BA002B43B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3012C0071ADE70BA002B43B3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3012C0081ADE70BA002B43B3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3012C0091ADE70BA002B43B3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3012C00A1ADE70BA002B43B3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3012C00B1ADE70BA002B43B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3012C01C1ADE71C3002B43B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3012BFC91ADE6DBD002B43B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3012C00C1ADE70BA002B43B3 /* AddressBook.framework in Frameworks */,
+				3012C00D1ADE70BA002B43B3 /* AssetsLibrary.framework in Frameworks */,
+				3012C00E1ADE70BA002B43B3 /* AudioToolbox.framework in Frameworks */,
+				3012C00F1ADE70BA002B43B3 /* AVFoundation.framework in Frameworks */,
+				3012C0101ADE70BA002B43B3 /* CoreLocation.framework in Frameworks */,
+				3012C0111ADE70BA002B43B3 /* CoreMotion.framework in Frameworks */,
+				3012C0121ADE70BA002B43B3 /* CoreText.framework in Frameworks */,
+				3012C0131ADE70BA002B43B3 /* libsqlite3.dylib in Frameworks */,
+				3012C0141ADE70BA002B43B3 /* libstdc++.6.dylib in Frameworks */,
+				3012C0151ADE70BA002B43B3 /* libxml2.dylib in Frameworks */,
+				3012C0161ADE70BA002B43B3 /* MapKit.framework in Frameworks */,
+				3012C0171ADE70BA002B43B3 /* MediaPlayer.framework in Frameworks */,
+				3012C0181ADE70BA002B43B3 /* MessageUI.framework in Frameworks */,
+				3012C0191ADE70BA002B43B3 /* MobileCoreServices.framework in Frameworks */,
+				3012C01A1ADE70BA002B43B3 /* Security.framework in Frameworks */,
+				3012C01B1ADE70BA002B43B3 /* SystemConfiguration.framework in Frameworks */,
+				3012BFF91ADE6FC3002B43B3 /* Agate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3012BFC31ADE6DBD002B43B3 = {
+			isa = PBXGroup;
+			children = (
+				3012C01C1ADE71C3002B43B3 /* Default-568h@2x.png */,
+				3012BFFA1ADE6FE2002B43B3 /* moml */,
+				3012BFCE1ADE6DBD002B43B3 /* KorQuiz */,
+				3012BFF11ADE6E7B002B43B3 /* Frameworks */,
+				3012BFCD1ADE6DBD002B43B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3012BFCD1ADE6DBD002B43B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3012BFCC1ADE6DBD002B43B3 /* KorQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3012BFCE1ADE6DBD002B43B3 /* KorQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				3012BFD11ADE6DBD002B43B3 /* AppDelegate.swift */,
+				3012BFD31ADE6DBD002B43B3 /* ViewController.swift */,
+				3012BFD51ADE6DBD002B43B3 /* Main.storyboard */,
+				3012BFD81ADE6DBD002B43B3 /* Images.xcassets */,
+				3012BFCF1ADE6DBD002B43B3 /* Supporting Files */,
+			);
+			path = KorQuiz;
+			sourceTree = "<group>";
+		};
+		3012BFCF1ADE6DBD002B43B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3012BFD01ADE6DBD002B43B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3012BFF11ADE6E7B002B43B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3012BFFC1ADE70B9002B43B3 /* AddressBook.framework */,
+				3012BFFD1ADE70B9002B43B3 /* AssetsLibrary.framework */,
+				3012BFFE1ADE70B9002B43B3 /* AudioToolbox.framework */,
+				3012BFFF1ADE70BA002B43B3 /* AVFoundation.framework */,
+				3012C0001ADE70BA002B43B3 /* CoreLocation.framework */,
+				3012C0011ADE70BA002B43B3 /* CoreMotion.framework */,
+				3012C0021ADE70BA002B43B3 /* CoreText.framework */,
+				3012C0031ADE70BA002B43B3 /* libsqlite3.dylib */,
+				3012C0041ADE70BA002B43B3 /* libstdc++.6.dylib */,
+				3012C0051ADE70BA002B43B3 /* libxml2.dylib */,
+				3012C0061ADE70BA002B43B3 /* MapKit.framework */,
+				3012C0071ADE70BA002B43B3 /* MediaPlayer.framework */,
+				3012C0081ADE70BA002B43B3 /* MessageUI.framework */,
+				3012C0091ADE70BA002B43B3 /* MobileCoreServices.framework */,
+				3012C00A1ADE70BA002B43B3 /* Security.framework */,
+				3012C00B1ADE70BA002B43B3 /* SystemConfiguration.framework */,
+				3012BFF61ADE6FC3002B43B3 /* Agate.bundle */,
+				3012BFF71ADE6FC3002B43B3 /* Agate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3012BFCB1ADE6DBD002B43B3 /* KorQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3012BFEB1ADE6DBE002B43B3 /* Build configuration list for PBXNativeTarget "KorQuiz" */;
+			buildPhases = (
+				3012BFC81ADE6DBD002B43B3 /* Sources */,
+				3012BFC91ADE6DBD002B43B3 /* Frameworks */,
+				3012BFCA1ADE6DBD002B43B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KorQuiz;
+			productName = KorQuiz;
+			productReference = 3012BFCC1ADE6DBD002B43B3 /* KorQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3012BFC41ADE6DBD002B43B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ApplusForm.com;
+				TargetAttributes = {
+					3012BFCB1ADE6DBD002B43B3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 3012BFC71ADE6DBD002B43B3 /* Build configuration list for PBXProject "KorQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3012BFC31ADE6DBD002B43B3;
+			productRefGroup = 3012BFCD1ADE6DBD002B43B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3012BFCB1ADE6DBD002B43B3 /* KorQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3012BFCA1ADE6DBD002B43B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3012BFD71ADE6DBD002B43B3 /* Main.storyboard in Resources */,
+				3012BFF81ADE6FC3002B43B3 /* Agate.bundle in Resources */,
+				3012BFD91ADE6DBD002B43B3 /* Images.xcassets in Resources */,
+				3012BFFB1ADE6FE2002B43B3 /* moml in Resources */,
+				3012C01D1ADE71C3002B43B3 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3012BFC81ADE6DBD002B43B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3012BFD41ADE6DBD002B43B3 /* ViewController.swift in Sources */,
+				3012BFD21ADE6DBD002B43B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3012BFD51ADE6DBD002B43B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3012BFD61ADE6DBD002B43B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3012BFE91ADE6DBE002B43B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3012BFEA1ADE6DBE002B43B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3012BFEC1ADE6DBE002B43B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AgateFramework",
+				);
+				INFOPLIST_FILE = KorQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6da2306b-2a3a-42c6-b959-a91748a7cb74";
+			};
+			name = Debug;
+		};
+		3012BFED1ADE6DBE002B43B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AgateFramework",
+				);
+				INFOPLIST_FILE = KorQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6da2306b-2a3a-42c6-b959-a91748a7cb74";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3012BFC71ADE6DBD002B43B3 /* Build configuration list for PBXProject "KorQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3012BFE91ADE6DBE002B43B3 /* Debug */,
+				3012BFEA1ADE6DBE002B43B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3012BFEB1ADE6DBE002B43B3 /* Build configuration list for PBXNativeTarget "KorQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3012BFEC1ADE6DBE002B43B3 /* Debug */,
+				3012BFED1ADE6DBE002B43B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3012BFC41ADE6DBD002B43B3 /* Project object */;
+}
